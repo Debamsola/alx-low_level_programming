@@ -10,11 +10,13 @@
 int main(void)
 {
 	int i, sum, sum1, ans;
+
 	sum = 0;
 	sum1 = 1;
 
 
 	for (i >= 0; i <= 50; i++)
+
 	{
 		ans = sum + sum1;
 		printf("%d\n", ans);
