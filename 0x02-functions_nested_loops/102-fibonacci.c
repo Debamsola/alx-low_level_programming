@@ -9,17 +9,16 @@
 
 int main(void)
 {
-	int i, sum, sum1, ans;
+	int i;
+	unsigned long sum = 0, sum1 = 1, ans;
 
-	sum = 0;
-	sum1 = 1;
 
 
 	for (i >= 0; i <= 50; i++)
 
 	{
 		ans = sum + sum1;
-		printf("%d\n", ans);
+		printf("%ld\n", ans);
 
 		sum = sum1;
 		sum1 = ans;
