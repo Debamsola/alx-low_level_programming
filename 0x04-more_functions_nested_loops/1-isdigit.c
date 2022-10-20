@@ -12,7 +12,7 @@ int _isdigit(int c)
 {
 	char ret;
 
-	if (c <= '0' && c >= '0')
+	if (c >= '0' && c <= '9')
 		ret = 1;
 	else
 		ret = 0;
