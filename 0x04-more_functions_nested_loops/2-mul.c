@@ -12,9 +12,5 @@
 
 int mul(int a, int b)
 {
-	char ret;
-
-	ret = a * b;
-
-	return (ret);
+	return (a * b);
 }
